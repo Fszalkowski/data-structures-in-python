@@ -24,8 +24,8 @@ while True:
     except ValueError:
         print("Invalid value please enter once again")
         question_2 = input("Or maybe you wanna exit? (yes/no)")
-        if question_2.lower == "yes":
+        if question_2.lower() == "yes":
             break
-        elif question_2.lower == "no":
+        elif question_2.lower() == "no":
             continue
     break
