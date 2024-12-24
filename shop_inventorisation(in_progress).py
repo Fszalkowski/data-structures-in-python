@@ -52,9 +52,6 @@ while True:
     try:
         customer_name = input("Enter customer name: ")
         customer_email = input("Enter customer email address: ")
-        if not is_valid_email(customer_email):
-            print("Invalid email address. Please enter a valid email.")
-            continue
 
         cursor.execute('''
             INSERT INTO customers (name, email)
